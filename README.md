@@ -11,3 +11,9 @@ The value of the golden value is the average of the human values.
 Task 2: Classifying the movie genre into nine categories.
 Models used: BiLSTM(method b)   BERT(method c)
 Some of the categories have a small number of training data. --> This has been dealt with by fine-tuning the threshold binary value of each label(9 genres)
+
+
+This project is built on Google Colab using T4 GPU.
+
+# Warning
+The pipeline takes over 4 hours to run on T4 GPU.
